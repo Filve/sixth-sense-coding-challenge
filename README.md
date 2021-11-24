@@ -6,7 +6,7 @@ Products: id, name, description, unit price, stock quantity
 Orders: id, date, company code, list of ordered products (each one with id, unit price, ordered quantity)
 Endpoints
 
-#PRODUCTS
+# PRODUCTS
 An endpoint that returns the list of all the products; results must be paged
 An endpoint that returns a single product
 An endpoint for creating a new product, with the following requirements:
@@ -14,7 +14,7 @@ There cannot exist two products with the same name and description
 Unit price cannot exceed 1000 €
 If the creation is successful must return the created product
 
-#ORDERS
+# ORDERS
 An endpoint that returns all the orders and the total amount of each; results must be paged
 An endpoint for the creation of a new order, with the following requirements:
 At least one product must be specified
@@ -29,13 +29,13 @@ COMPANY_1: the sum of (quantity * unit price) of the various products + fixed ma
 COMPANY_2: the sum of (quantity * unit price) of the various products + fixed administrative cost of 1 €
 Consider in general that new companies with different algorithms for calculating the total amount of an order may be added in the future.
 
-#Technical requirements
+# Technical requirements
 The solution must be implemented using .NET Core 3+
 All the components must be unit-testable and well documented
 Use dependency injection for injecting the components
 The business logic must be easily identifiable and separated from any infrastructural code
 
-#Optional requirements
+# Optional requirements
 Products and orders databases are considered distinct databases. Consequently, the update of a product stock when an order is placed 
 must be a different transaction
 Use repository and unit of work patterns
