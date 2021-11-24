@@ -39,4 +39,4 @@ The business logic must be easily identifiable and separated from any infrastruc
 Products and orders databases are considered distinct databases. Consequently, the update of a product stock when an order is placed 
 must be a different transaction
 Use repository and unit of work patterns
-Protect APIs with JWT authorizatio
+Protect APIs with JWT authorization
