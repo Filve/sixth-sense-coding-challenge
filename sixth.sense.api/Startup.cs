@@ -1,10 +1,12 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
+using sixth.sense.api.Data;
 using sixth.sense.api.Mapping;
 using sixth.sense.api.Repo;
 using sixth.sense.api.Repo.IRepo;
@@ -25,12 +27,15 @@ namespace sixth.sense.api
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<SixthSenseDbContext>
+                (options => options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
             services.AddControllers();
 
             services.AddControllers();
             services.AddMvc(option => option.EnableEndpointRouting = false);
 
-            services.AddScoped<IHandler, Handler>();
+            services.AddScoped<IUser, User>();
             services.AddAutoMapper(typeof(HandlerMapper));
 
 

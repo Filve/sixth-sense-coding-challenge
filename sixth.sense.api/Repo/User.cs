@@ -2,7 +2,7 @@
 
 namespace sixth.sense.api.Repo
 {
-    public class Handler : IHandler
+    public class User : IUser
     {
     }
 }
