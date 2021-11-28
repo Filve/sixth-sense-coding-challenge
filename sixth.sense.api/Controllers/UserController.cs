@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace sixth.sense.api.Controllers
 {
-    public class HandlerController : Controller
+    public class UserController : Controller
     {
-        public HandlerController()
+        public UserController()
         {
 
         }

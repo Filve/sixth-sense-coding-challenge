@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace sixth.sense.api.Models
 {
-    public class Handler
+    public class User
     {
         [Key]
         public int Id { get; set; }

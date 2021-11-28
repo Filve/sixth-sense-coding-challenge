@@ -35,7 +35,7 @@ namespace sixth.sense.api
             services.AddControllers();
             services.AddMvc(option => option.EnableEndpointRouting = false);
 
-            services.AddScoped<IHandler, Handler>();
+            services.AddScoped<IUser, User>();
             services.AddAutoMapper(typeof(HandlerMapper));
 
 
