@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\sixth-sense-api\sixth.sense.api.csproj" />
+    <ProjectReference Include="..\sixth.sense.api\sixth.sense.api.csproj" />
   </ItemGroup>
 
 </Project>
