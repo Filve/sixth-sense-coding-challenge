@@ -1,0 +1,5 @@
+C:\GitHub\sixth-sense-coding-challenge\sixth-sense-api-test\bin\Debug\netcoreapp3.1\CoverletSourceRootsMapping
+C:\GitHub\sixth-sense-coding-challenge\sixth-sense-api-test\obj\Debug\netcoreapp3.1\sixth.sense.api.test.csproj.AssemblyReference.cache
+C:\GitHub\sixth-sense-coding-challenge\sixth-sense-api-test\obj\Debug\netcoreapp3.1\sixth.sense.api.test.AssemblyInfoInputs.cache
+C:\GitHub\sixth-sense-coding-challenge\sixth-sense-api-test\obj\Debug\netcoreapp3.1\sixth.sense.api.test.AssemblyInfo.cs
+C:\GitHub\sixth-sense-coding-challenge\sixth-sense-api-test\obj\Debug\netcoreapp3.1\sixth.sense.api.test.csproj.CoreCompileInputs.cache

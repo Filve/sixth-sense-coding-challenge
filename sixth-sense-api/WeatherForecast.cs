@@ -1,6 +1,6 @@
 using System;
 
-namespace sixth_sense_api
+namespace sixth.sense.api
 {
     public class WeatherForecast
     {

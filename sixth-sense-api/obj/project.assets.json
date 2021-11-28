@@ -5829,9 +5829,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\sixth-sense-api.csproj",
-      "projectName": "sixth-sense-api",
-      "projectPath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\sixth-sense-api.csproj",
+      "projectUniqueName": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\sixth.sense.api.csproj",
+      "projectName": "sixth.sense.api",
+      "projectPath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\sixth.sense.api.csproj",
       "packagesPath": "C:\\Users\\frava\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\obj\\",
       "projectStyle": "PackageReference",
