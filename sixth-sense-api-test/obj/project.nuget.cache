@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8nJ4Ij8DuMpwMMgUk1pttTtzsPeRK758wRYZylMu8OJOh35O1uR4fbULVX+0Ow6t0RUXvHmqVeZW/1hmVW2hxw==",
+  "dgSpecHash": "N+A5XseZRHqAShekxMVG0EGUnHQDuTyDXFuOZ8xaqXDV7zHbYCjH2O/hP5W06kbSMBLEeMegYIs0eQ6CYfCjEA==",
   "success": true,
-  "projectFilePath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api-test\\sixth-sense-api-test.csproj",
+  "projectFilePath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api-test\\sixth.sense.api.test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\frava\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\frava\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

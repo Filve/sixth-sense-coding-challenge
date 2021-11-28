@@ -7,7 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace sixth_sense_api
+namespace sixth.sense.api
 {
     public class Program
     {

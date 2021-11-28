@@ -2476,7 +2476,7 @@
           "build/netcoreapp2.1/xunit.runner.visualstudio.props": {}
         }
       },
-      "sixth-sense-api/1.0.0": {
+      "sixth.sense.api/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
@@ -2487,10 +2487,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.21"
         },
         "compile": {
-          "bin/placeholder/sixth-sense-api.dll": {}
+          "bin/placeholder/sixth.sense.api.dll": {}
         },
         "runtime": {
-          "bin/placeholder/sixth-sense-api.dll": {}
+          "bin/placeholder/sixth.sense.api.dll": {}
         },
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
@@ -8382,17 +8382,17 @@
         "xunit.runner.visualstudio.nuspec"
       ]
     },
-    "sixth-sense-api/1.0.0": {
+    "sixth.sense.api/1.0.0": {
       "type": "project",
-      "path": "../sixth-sense-api/sixth-sense-api.csproj",
-      "msbuildProject": "../sixth-sense-api/sixth-sense-api.csproj"
+      "path": "../sixth-sense-api/sixth.sense.api.csproj",
+      "msbuildProject": "../sixth-sense-api/sixth.sense.api.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.NET.Test.Sdk >= 16.9.4",
       "coverlet.collector >= 3.0.2",
-      "sixth-sense-api >= 1.0.0",
+      "sixth.sense.api >= 1.0.0",
       "xunit >= 2.4.1",
       "xunit.runner.visualstudio >= 2.4.3"
     ]
@@ -8405,9 +8405,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api-test\\sixth-sense-api-test.csproj",
-      "projectName": "sixth-sense-api-test",
-      "projectPath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api-test\\sixth-sense-api-test.csproj",
+      "projectUniqueName": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api-test\\sixth.sense.api.test.csproj",
+      "projectName": "sixth.sense.api.test",
+      "projectPath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api-test\\sixth.sense.api.test.csproj",
       "packagesPath": "C:\\Users\\frava\\.nuget\\packages\\",
       "outputPath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api-test\\obj\\",
       "projectStyle": "PackageReference",
@@ -8432,8 +8432,8 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\sixth-sense-api.csproj": {
-              "projectPath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\sixth-sense-api.csproj"
+            "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\sixth.sense.api.csproj": {
+              "projectPath": "C:\\GitHub\\sixth-sense-coding-challenge\\sixth-sense-api\\sixth.sense.api.csproj"
             }
           }
         }

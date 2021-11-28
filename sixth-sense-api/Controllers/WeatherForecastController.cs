@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace sixth_sense_api.Controllers
+namespace sixth.sense.api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
