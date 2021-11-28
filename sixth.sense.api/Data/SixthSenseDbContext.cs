@@ -12,5 +12,6 @@ namespace sixth.sense.api.Data
 
         public DbSet<Products> Products { get; set; }
         public DbSet<Orders> Orders { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }

@@ -125,3 +125,4 @@ C:\GitHub\sixth-sense-coding-challenge\sixth.sense.api\obj\Debug\netcoreapp3.1\s
 C:\GitHub\sixth-sense-coding-challenge\sixth.sense.api\obj\Debug\netcoreapp3.1\sixth.sense.api.dll
 C:\GitHub\sixth-sense-coding-challenge\sixth.sense.api\obj\Debug\netcoreapp3.1\sixth.sense.api.pdb
 C:\GitHub\sixth-sense-coding-challenge\sixth.sense.api\obj\Debug\netcoreapp3.1\sixth.sense.api.genruntimeconfig.cache
+C:\GitHub\sixth-sense-coding-challenge\sixth.sense.api\obj\Debug\netcoreapp3.1\sixth.sense.api.csproj.AssemblyReference.cache

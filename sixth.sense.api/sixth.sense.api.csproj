@@ -3,6 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>sixth.sense.api</RootNamespace>
+    <StartupObject>sixth.sense.api.Program</StartupObject>
+    <UserSecretsId>6eccab7d-0164-403d-864e-909b07299ff5</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>

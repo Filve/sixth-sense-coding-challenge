@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
-namespace sixth.sense.api.Models
+namespace sixth.sense.api.Models.Dtos
 {
-    public class Orders
+    public class OrdersDto
     {
-        [Key]
+
         public int Id { get; set; }
         public DateTime Date { get; set; }
         [Required]
@@ -17,10 +16,8 @@ namespace sixth.sense.api.Models
 
     public class OrderedProducts
     {
-        [Key]
         public int Id { get; set; }
         [Required]
-        [Column(TypeName = "decimal(18,4)")]
         public decimal UnitPrice { get; set; }
         [Required]
         public int OrderedQuantity { get; set; }
